@@ -1,4 +1,4 @@
-var w = 230, h = 100; // Size
+var w = 400, h = 400; // Size
 
 var colorscale = d3.scale.category10();
 
@@ -61,42 +61,8 @@ var svg = d3.select('#body1')
 var text = svg.append("text")
 	.attr("class", "title")
 	.attr('transform', 'translate(90,0)')
-	.attr("x", w - 40)
+	.attr("x", w - 60)
 	.attr("y", 20)
 	.attr("font-size", "20px")
 	.attr("fill", "#404040")
-	//.text("Profile Team"); // Tittle
-
-
-
-/*
-//Initiate Legend
-var legend = svg.append("g")
-	.attr("class", "legend")
-	.attr("height", 100)
-	.attr("width", 200)
-	.attr('transform', 'translate(90,20)')
-	;
-
-	//Create colour squares
-	legend.selectAll('rect')
-	  .data(LegendOptions)
-	  .enter()
-	  .append("rect")
-	  .attr("x", w - 65)
-	  .attr("y", function(d, i){ return i * 20;})
-	  .attr("width", 10)
-	  .attr("height", 10)
-	  .style("fill", function(d, i){ return colorscale(i);})
-	  ;
-	//Create text next to squares
-	legend.selectAll('text')
-	  .data(LegendOptions)
-	  .enter()
-	  .append("text")
-	  .attr("x", w - 52)
-	  .attr("y", function(d, i){ return i * 20 + 9;})
-	  .attr("font-size", "11px")
-	  .attr("fill", "#737373")
-	  .text(function(d) { return d; })
-	  ; */
+	.text("Profile team"); // Tittle
