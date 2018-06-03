@@ -8,7 +8,7 @@ var colorscale = d3.scale.category10();
 //Data
 var data = [
 		  [
-			{axis:"Work Ethic",value:0.8},
+			{axis:"Work Ability",value:0.8},
 			{axis:"Technical Ability",value:0.8},
 			{axis:"Charisma",value:0.42},
 			{axis:"Grit/Determination",value:0.6},
@@ -17,6 +17,11 @@ var data = [
 			{axis:"Honesty & Sincerity",value:0.11}
 		  ]
 		];
+
+/*// Example, how to change content
+data[0][1].axis = 'Vales M!!!'
+data[0][1].value = 0
+*/
 
 //Options for the Radar chart, other than default
 var mycfg = {
