@@ -1,4 +1,4 @@
-var w = 400, h = 400; // Size
+var w = 230, h = 100; // Size
 
 var colorscale = d3.scale.category10();
 
@@ -41,15 +41,55 @@ var svg = d3.select('#body')
 	.attr("width", w+300)
 	.attr("height", h)
 
+
+RadarChart.draw("#chart1", data, mycfg);
+
+////////////////////////////////////////////
+/////////// Initiate legend ////////////////
+////////////////////////////////////////////
+
+var svg = d3.select('#body1')
+	.selectAll('svg')
+	.append('svg')
+	.attr("width", w+300)
+	.attr("height", h)
+
+RadarChart.draw("#chart2", data, mycfg);
+
+////////////////////////////////////////////
+/////////// Initiate legend ////////////////
+////////////////////////////////////////////
+
+var svg = d3.select('#body2')
+	.selectAll('svg')
+	.append('svg')
+	.attr("width", w+300)
+	.attr("height", h)
+
+
+RadarChart.draw("#chart3", data, mycfg);
+
+////////////////////////////////////////////
+/////////// Initiate legend ////////////////
+////////////////////////////////////////////
+
+var svg = d3.select('#body3')
+	.selectAll('svg')
+	.append('svg')
+	.attr("width", w+300)
+	.attr("height", h)
+
 //Create the title for the legend
 var text = svg.append("text")
 	.attr("class", "title")
 	.attr('transform', 'translate(90,0)')
-	.attr("x", w - 60)
+	.attr("x", w - 40)
 	.attr("y", 20)
 	.attr("font-size", "20px")
 	.attr("fill", "#404040")
-	.text("Profile team"); // Tittle
+	//.text("Profile Team"); // Tittle
+
+
 
 /*
 //Initiate Legend
