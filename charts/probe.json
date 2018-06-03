@@ -1,31 +1,674 @@
 [
-	[{
-			"axis": "Work Ability",
-			"value": 0.8
-		},
-		{
-			"axis": "Technical Ability",
-			"value": 0.6
-		},
-		{
-			"axis": "Charisma",
-			"value": 0.7
-		},
-		{
-			"axis": "Grit/Determination",
-			"value": 0.6
-		},
-		{
-			"axis": "Teaching Ability",
-			"value": 0.9
-		},
-		{
-			"axis": "Hustle Ability",
-			"value": 0.35
-		},
-		{
-			"axis": "Honesty & Sincerity",
-			"value": 0.3
-		}
-	]
+    {
+        "members": [
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.55,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.93,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.35,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.21,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.1,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.33,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.71,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.55,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.21,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.21,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.84,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.48,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.25,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.73,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.19,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.0,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.49,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.25,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.85,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.28,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.69,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.57,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.84,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.58,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.1,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.73,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.97,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.55,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            }
+        ],
+        "team": {
+            "chart": [
+                {
+                    "value": 0.98,
+                    "axis": "Work Ability"
+                },
+                {
+                    "value": 0.94,
+                    "axis": "Technical Ability"
+                },
+                {
+                    "value": 0.14,
+                    "axis": "Charisma"
+                },
+                {
+                    "value": 0.34,
+                    "axis": "Grit/Determination"
+                },
+                {
+                    "value": 0.28,
+                    "axis": "Teaching Ability"
+                },
+                {
+                    "value": 0.62,
+                    "axis": "Hustle Ability"
+                },
+                {
+                    "value": 0.7,
+                    "axis": "Honesty & Sincerity"
+                }
+            ]
+        }
+    },
+    {
+        "members": [
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.06,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.53,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.19,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.77,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.93,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.64,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.86,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.89,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.95,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.78,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.93,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.9,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.85,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.07,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.94,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.94,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.35,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.41,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.16,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.72,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.84,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.73,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.06,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.77,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.2,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.86,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.05,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.21,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            }
+        ],
+        "team": {
+            "chart": [
+                {
+                    "value": 0.13,
+                    "axis": "Work Ability"
+                },
+                {
+                    "value": 0.74,
+                    "axis": "Technical Ability"
+                },
+                {
+                    "value": 0.72,
+                    "axis": "Charisma"
+                },
+                {
+                    "value": 0.02,
+                    "axis": "Grit/Determination"
+                },
+                {
+                    "value": 0.36,
+                    "axis": "Teaching Ability"
+                },
+                {
+                    "value": 0.09,
+                    "axis": "Hustle Ability"
+                },
+                {
+                    "value": 0.01,
+                    "axis": "Honesty & Sincerity"
+                }
+            ]
+        }
+    },
+    {
+        "members": [
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.38,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.15,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.35,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.96,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.59,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.22,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.4,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.86,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.93,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.76,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.83,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.94,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.19,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.71,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.76,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.4,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.69,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.92,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.01,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.56,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.81,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.49,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.94,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.2,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.03,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.21,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.85,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.04,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            }
+        ],
+        "team": {
+            "chart": [
+                {
+                    "value": 0.31,
+                    "axis": "Work Ability"
+                },
+                {
+                    "value": 0.54,
+                    "axis": "Technical Ability"
+                },
+                {
+                    "value": 0.68,
+                    "axis": "Charisma"
+                },
+                {
+                    "value": 0.56,
+                    "axis": "Grit/Determination"
+                },
+                {
+                    "value": 0.52,
+                    "axis": "Teaching Ability"
+                },
+                {
+                    "value": 0.39,
+                    "axis": "Hustle Ability"
+                },
+                {
+                    "value": 0.8,
+                    "axis": "Honesty & Sincerity"
+                }
+            ]
+        }
+    },
+    {
+        "members": [
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.56,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.42,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.32,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.84,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.84,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.95,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.67,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.23,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.91,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.53,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.09,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.05,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.04,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.43,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.72,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.41,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.82,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.09,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.27,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.81,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.57,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            },
+            {
+                "name": "hello my name is",
+                "chart": [
+                    {
+                        "value": 0.23,
+                        "axis": "Work Ability"
+                    },
+                    {
+                        "value": 0.16,
+                        "axis": "Technical Ability"
+                    },
+                    {
+                        "value": 0.25,
+                        "axis": "Charisma"
+                    },
+                    {
+                        "value": 0.74,
+                        "axis": "Grit/Determination"
+                    },
+                    {
+                        "value": 0.7,
+                        "axis": "Teaching Ability"
+                    },
+                    {
+                        "value": 0.85,
+                        "axis": "Hustle Ability"
+                    },
+                    {
+                        "value": 0.74,
+                        "axis": "Honesty & Sincerity"
+                    }
+                ]
+            }
+        ],
+        "team": {
+            "chart": [
+                {
+                    "value": 0.23,
+                    "axis": "Work Ability"
+                },
+                {
+                    "value": 0.36,
+                    "axis": "Technical Ability"
+                },
+                {
+                    "value": 0.39,
+                    "axis": "Charisma"
+                },
+                {
+                    "value": 0.43,
+                    "axis": "Grit/Determination"
+                },
+                {
+                    "value": 0.19,
+                    "axis": "Teaching Ability"
+                },
+                {
+                    "value": 0.16,
+                    "axis": "Hustle Ability"
+                },
+                {
+                    "value": 0.33,
+                    "axis": "Honesty & Sincerity"
+                }
+            ]
+        }
+    }
 ]
