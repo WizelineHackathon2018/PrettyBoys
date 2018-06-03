@@ -19,7 +19,7 @@ xhttp.onreadystatechange = function() {
        RadarChart.draw("#chart3", team3, mycfg);
     }
 };
-xhttp.open("GET", "http://192.168.6.249/api/staff-requirements/1/teams", true);
+xhttp.open("GET", "http://54.71.144.166/api/staff-requirements/1/teams", true);
 //xhttp.open("GET", "probe.json", true);
 xhttp.send();
 
