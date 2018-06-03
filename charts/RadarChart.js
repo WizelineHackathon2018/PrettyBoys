@@ -21,9 +21,9 @@ var RadarChart = {
 	 radians: 2 * Math.PI,
 	 opacityArea: 0.5,
 	 ToRight: 5,
-	 TranslateX: 80, // Position X
-	 TranslateY: 40,    //Position y
-	 ExtraWidthX: 90,
+	 TranslateX: 240,   // Position X
+	 TranslateY: 100,    //Position y
+	 ExtraWidthX: 100,
 	 ExtraWidthY: 200,
 	 color: d3.scale.category10()
 	};

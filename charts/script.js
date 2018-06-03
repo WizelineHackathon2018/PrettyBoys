@@ -4,19 +4,22 @@ var colorscale = d3.scale.category10();
 
 //Legend titles
 //var LegendOptions = ['Smartphone'];
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       var response = JSON.parse(xhttp.responseText);
+       //Call function to draw the Radar chart
+       //Will expect that data is in %'s
+       RadarChart.draw("#chart", response, mycfg);
+    }
+};
+xhttp.open("GET", "probe.json", true);
+xhttp.send();
 
-//Data
-var data = [
-		  [
-			{axis:"Work Ethic",value:0.8},
-			{axis:"Technical Ability",value:0.8},
-			{axis:"Charisma",value:0.42},
-			{axis:"Grit/Determination",value:0.6},
-			{axis:"Teaching Ability",value:0.48},
-			{axis:"Hustle Ability",value:0.35},
-			{axis:"Honesty & Sincerity",value:0.11}
-		  ]
-		];
+/*// Example, how to change content
+data[0][1].axis = 'Vales M!!!'
+data[0][1].value = 0
+*/
 
 //Options for the Radar chart, other than default
 var mycfg = {
@@ -27,13 +30,7 @@ var mycfg = {
   ExtraWidthX: 300
 }
 
-//Call function to draw the Radar chart
-//Will expect that data is in %'s
-RadarChart.draw("#chart", data, mycfg);
-
-////////////////////////////////////////////
 /////////// Initiate legend ////////////////
-////////////////////////////////////////////
 
 var svg = d3.select('#body')
 	.selectAll('svg')
